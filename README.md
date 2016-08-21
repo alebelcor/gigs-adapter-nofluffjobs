@@ -2,6 +2,8 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [No Fluff Jobs](https://nofluffjobs.com)
 
+[![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-nofluffjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-nofluffjobs)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4+ installed. Then run the following:
