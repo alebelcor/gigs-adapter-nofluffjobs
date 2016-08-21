@@ -2,6 +2,7 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [No Fluff Jobs](https://nofluffjobs.com)
 
+[![npm version](https://img.shields.io/npm/v/gigs-adapter-nofluffjobs.svg)](https://npmjs.org/package/gigs-adapter-nofluffjobs)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-nofluffjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-nofluffjobs)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-nofluffjobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-nofluffjobs)
 
