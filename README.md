@@ -3,6 +3,7 @@
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [No Fluff Jobs](https://nofluffjobs.com)
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-nofluffjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-nofluffjobs)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-nofluffjobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-nofluffjobs)
 
 ## Install
 
