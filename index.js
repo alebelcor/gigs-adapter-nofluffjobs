@@ -8,7 +8,7 @@ const getGigs = require('./lib/get-gigs');
 
 const ADAPTER_ENDPOINT = 'https://nofluffjobs.com/api/posting';
 
-module.exports = function gigsAdapterCodepenJobs(options) {
+module.exports = function gigsAdapterNoFluffJobs(options) {
   options = options || {};
 
   return got.get(ADAPTER_ENDPOINT, getGotOptions())
