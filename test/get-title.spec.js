@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getTitle from '../lib/get-title';
 
 test('it should return null', t => {
@@ -9,8 +10,8 @@ test('it should return null', t => {
 });
 
 test('it should return at least the title', t => {
-  t.deepEqual('foo', getTitle({title: 'foo'}));
-  t.deepEqual('foo', getTitle({title: 'foo', level: ''}));
+  t.deepEqual('foo', getTitle({title: ' foo '}));
+  t.deepEqual('foo', getTitle({title: ' foo ', level: ''}));
 });
 
 test('it should return at least the level', t => {
@@ -19,5 +20,5 @@ test('it should return at least the level', t => {
 });
 
 test('it should return the compound title', t => {
-  t.deepEqual('baz zaz', getTitle({title: 'baz', 'level': 'zaz'}));
+  t.deepEqual('baz zaz', getTitle({title: ' baz ', level: 'zaz'}));
 });
